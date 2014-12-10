@@ -1,0 +1,4 @@
+@charset "UTF-8";
+    .centrado{
+         position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); 
+    }
