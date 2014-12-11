@@ -18,12 +18,12 @@
         <title>
             <fmt:message key="enviarMensaje" bundle="${mensajes}"/>
         </title>
-        <link href="../css/centrado.css" type="text/css" title="centrado" rel="stylesheet" />
+        <link href="./css/centrado.css" type="text/css" title="centrado" rel="stylesheet" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
-        <div class="centrado" <!--align="center" style="margin: auto;"-->>
+        <div class="centrado"> <!--align="center" style="margin: auto;"-->
             <h2><fmt:message key="enviarMensaje" bundle="${mensajes}"/></h2>
             <br>
             <form action="guardarMensaje.jsp" method="post">
